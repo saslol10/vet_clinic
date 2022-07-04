@@ -1,0 +1,22 @@
+package com.vet_clinic.command;
+
+public enum CommandType {
+
+
+    CREATE_PATIENT,
+    DELETE_PATIENT,
+    WRITE_ALL_PATIENTS,
+    CHANGE_PATIENT,
+
+    CREATE_DOCTOR,
+    WRITE_ALL_DOCTORS,
+
+    CREATE_APPOINTMENT,
+    CHANGE_APPOINTMENT,
+    WRITE_ALL_APPOINTMENTS,
+
+    EXIT,
+
+    UNDEFINED
+
+}

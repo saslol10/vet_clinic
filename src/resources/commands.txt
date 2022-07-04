@@ -1,0 +1,23 @@
+Команды для копирования в консоль:
+
+create patient 1 s1 n1 m1
+create patient 2 s1 n1 m1
+create patient 1 s1 n1 m2
+create patient 2 s2 n2 m2
+patients
+create doctor 1 s1
+create doctor 1 s2
+create doctor 2 s2
+doctors
+create appointment 1 1 2022-07-04_12:00
+create appointment 1 1 2022-07-04_13:00
+change appointment 1 1 2022-07-04_12:00 В процессе
+change appointment 1 1 2022-07-04_12:00 В процессе
+appointments 1
+create appointment 2 1 2022-07-04_15:00
+create appointment 2 2 2022-07-04_12:00
+appointments 2
+change patient 1 s1 n2 m2
+change patient 2 s1 n2 m2
+delete patient 1
+exit
